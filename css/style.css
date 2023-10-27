@@ -1,0 +1,46 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
+
+.title {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    margin: 0!important;
+}
+
+.welcome_text {
+    font-size: 48px!important;
+}
+
+
+
+.section_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section_heading:after {
+    content: '';
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    width: 80px;
+}
+
+
+.social_media_icon {
+    width: 100px;
+}
+
+.name {
+    color: red;
+}
